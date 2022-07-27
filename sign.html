@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sign Up</title>
+		<style>
+			body{
+			background-color: aliceblue;
+			}
+			
+			h1{
+			color: rgb(0, 0, 0);
+			}
+			
+			button{
+			background-color: black;
+			color: white;
+			padding: 5px;
+			}
+			
+			button:hover{
+			background-color: white;
+			color: black;
+			width: 45%;
+			}
+			
+			.in{
+			font-weight: bold;
+			height: 40px;
+			width: 300px;
+			border-radius: 10px;
+			box-shadow: 1px 2px #888888;
+			}
+		</style>
+        <link rel="stylesheet" href="1.css">
+	</head>
+	
+	<body>
+		<div class="container">
+            <div class="header1">
+                <div class="column1" >
+                    <img src="fb.png" >
+                </div>
+                <div class="column2">
+                    <h1>MY WEBSITE</h1>
+                </div>
+                <div class="column3">
+                    <h3>Tusday, 26 July 2022</h3>
+                    <input type="text" placeholder="Search hrere">
+                </div>
+            </div>
+            <div class="header2">
+                <div class="list"><a href="index.html">Home</a> </div>
+                <div class="list"><a href="2.html">Form</a></div>
+                <div class="list"><a href="4.html">Table</a></div>
+                <div class="list"><a href="5.html">NewsPortal</a></div>
+                <div class="list"><a href="6.html">Image</a></div>
+                <div class="list"><a href="7.html">Contact</a></div>
+            </div>
+        <div class="login"> 
+			<h1>Registration Form</h1><br>
+			
+			<label for="login">Please enter you details here</label><br><br>
+			
+			<label for="fname">First Name</label>
+            <input type="text" id="fname" placeholder="Emon"><br><br>
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" placeholder="Khan"><br><br>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="email@mail.com"><br><br>
+
+            <label for="password">Password</label>
+            <input type="password" id="password"><br><br>
+
+            <label for="gender">Gender :</label>
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender">
+            <label for="other">Other</label><br><br>
+
+            <label for="Division">Division :</label>
+            <select name="cars" id="cars" multiple>
+            <option value="Dhaka">Dhaka</option>
+            <option value="Rangpur">Rangpur</option>
+            <option value="Rajshahi">Rajshahi</option>
+            <option value="Mymensingh">Mymensingh</option>
+            <option value="Sylhet">Sylhet</option>
+            <option value="Padma">Padma</option>
+            <option value="Barishal">Barishal</option>
+            <option value="Khulna">Khulna</option>
+            <option value="Chattogram">Chattogram</option>
+            <option value="Meghna">Meghna</option>
+            </select>
+            <br><br>
+		
+			<button class="in" type="submit">Sign Up</button>
+		</div>
+	</body>
+</html>
+
